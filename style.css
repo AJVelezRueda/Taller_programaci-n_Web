@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    font-family: 'Lato', sans-serif, arial;
+}
+
+section {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 18px;
+}
+
+.barra {
+    display: block;
+    height: 20px;
+    position: relative;
+    background-color: black;
+    margin-bottom: 23px;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+}
+
+.head-perfil{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2%;
+}
+.perfil h2 {
+    color: #771b1b;
+}
+
+.perfil img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
